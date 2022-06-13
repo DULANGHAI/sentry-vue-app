@@ -9,7 +9,7 @@ const count = ref(0)
 
 const handleClick = () => {
   count.value++
-  console.error('xxxxx')
+  a()
 }
 </script>
 
