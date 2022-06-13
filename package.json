@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sentry/tracing": "^7.1.1",
+    "@sentry/vue": "^7.1.1",
     "vue": "^3.2.25"
   },
   "devDependencies": {
