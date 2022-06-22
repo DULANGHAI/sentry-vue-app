@@ -1,20 +1,24 @@
 <script setup>
 import { ref } from 'vue'
+import { mainStore } from '../store/index'
 
 defineProps({
   msg: String
 })
-
+const store = mainStore()
 const count = ref(0)
 
 const handleClick = () => {
   count.value++
-  a()
+  const ids = '1,2,3,4,5'
+  const newIds = ids.replaceAll(',', ';')
+  console.log('newIds', newIds)
 }
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
+  <h1>{{ store.msg }}</h1>
 
   <p>
     Recommended IDE setup:

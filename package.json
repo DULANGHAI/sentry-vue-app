@@ -10,6 +10,7 @@
   "dependencies": {
     "@sentry/tracing": "^7.1.1",
     "@sentry/vue": "^7.1.1",
+    "pinia": "^2.0.14",
     "vue": "^3.2.25"
   },
   "devDependencies": {
